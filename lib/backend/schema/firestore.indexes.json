@@ -1,0 +1,32 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "users_liked",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "time_stamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "uid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "time_stamp",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
