@@ -472,7 +472,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                     ),
                                     child: Container(
                                       width: MediaQuery.of(context).size.width,
-                                      height: 370,
+                                      height: 450,
                                       decoration: BoxDecoration(
                                         color: Colors.white,
                                         borderRadius: BorderRadius.circular(0),
@@ -701,11 +701,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                                   imageBuilder: (path) =>
                                                       Image.network(
                                                     path,
-                                                    width:
-                                                        MediaQuery.of(context)
-                                                                .size
-                                                                .width *
-                                                            0.65,
+                                                    height: 200,
                                                     fit: BoxFit.cover,
                                                   ),
                                                   videoPlayerBuilder: (path) =>

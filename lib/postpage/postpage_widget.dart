@@ -54,7 +54,7 @@ class _PostpageWidgetState extends State<PostpageWidget> {
               children: [
                 Form(
                   key: formKey,
-                  autovalidateMode: AutovalidateMode.disabled,
+                  autovalidateMode: AutovalidateMode.always,
                   child: Column(
                     mainAxisSize: MainAxisSize.max,
                     children: [
@@ -217,8 +217,8 @@ class _PostpageWidgetState extends State<PostpageWidget> {
                             if (val == null || val.isEmpty) {
                               return 'Field is required';
                             }
-                            if (val.length < 1) {
-                              return 'Requires at least 1 characters.';
+                            if (val.length < 2) {
+                              return 'Requires at least few characters.';
                             }
 
                             return null;
