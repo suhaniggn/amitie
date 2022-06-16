@@ -27,3 +27,5 @@ flutter build apk --release
 
 #### APK
 APK: download https://github.com/suhaniggn/amitie/raw/main/amitie-release.apk and install on your device to run 
+
+![Splash_Screen](https://user-images.githubusercontent.com/101047492/174139685-09b92482-249a-4226-b8e9-3f37e14bb0c3.png)
